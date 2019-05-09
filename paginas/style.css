@@ -1,0 +1,13 @@
+img {
+  overflow: hidden;
+  width: 100%;
+}
+
+#dropdownMenu1 {
+  background-color: #d1d1d1;
+  color: black;
+}
+
+.btn-outline-success {
+  color: black;
+}
