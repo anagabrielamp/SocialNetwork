@@ -1,13 +1,41 @@
-img {
-  overflow: hidden;
-  width: 100%;
+.container {
+  background-color: red;
 }
 
-#dropdownMenu1 {
-  background-color: #d1d1d1;
-  color: black;
+.arriba {
+  height: 80px;
 }
 
-.btn-outline-success {
-  color: black;
+
+
+.busqueda {
+  width: 150px;
+  border: 30px;
+}
+
+.boxLeft {
+  border: 1px solid #DCDBD8;
+  border-radius: 5px;
+  height: 80px;
+}
+
+.boxRight {
+  height: 120px;
+  border-radius: 5px;
+  border: 1px solid #DCDBD8;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.sendButton {
+  margin: 0 auto;
+  height: 30px;
+  width: 100px;
+  border: 1px solid grey;
+  line-height: 30px;
+  border-radius: 5px;
+  color: grey;
+  background-color: white;
+  text-align: center;
+  vertical-align: bottom;
 }
