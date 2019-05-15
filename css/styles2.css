@@ -1,0 +1,43 @@
+html{
+    
+    font-size:62.5%;
+    font-size: 1rem;
+    background-image: url(../img/welcome-sign-2284312_1920.jpg);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+    height:100vh;
+    min-height: 40rem;
+    
+ }
+ body { 
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem; 
+ }
+
+.card { 
+   width:24rem; 
+   height:40rem;
+   right:300px;
+   left:300px;
+   top:50px;
+   margin: 0px auto;
+   position:absolute;
+   background-color:transparent  ;
+   color:black;   
+   opacity: 0.9  ;
+   background-color:lightblue;
+   text-align: center;
+  
+ }
+ .check{ 
+     width: 20px;
+     height: 20px;
+ }
+
+ #acc a:hover{
+    text-decoration: none;
+    color:red;
+ }
+
+ 
