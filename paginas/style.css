@@ -1,11 +1,6 @@
-.container {
-  background-color: red;
+.container-fluid {
+  background-color: #F7F8FA
 }
-
-.arriba {
-  height: 80px;
-}
-
 
 
 .busqueda {
@@ -17,25 +12,33 @@
   border: 1px solid #DCDBD8;
   border-radius: 5px;
   height: 80px;
-}
-
-.boxRight {
-  height: 120px;
-  border-radius: 5px;
-  border: 1px solid #DCDBD8;
-  padding: 10px;
-  margin-right: 5px;
-}
-
-.sendButton {
-  margin: 0 auto;
-  height: 30px;
-  width: 100px;
-  border: 1px solid grey;
-  line-height: 30px;
-  border-radius: 5px;
-  color: grey;
   background-color: white;
-  text-align: center;
-  vertical-align: bottom;
+  padding: 15px;
+}
+
+.arriba {
+  margin-bottom: 20px;
+}
+
+.subheader {
+  border: 1px solid #DCDBD8;
+  border-radius: 5px;
+  background-color: white;
+  padding: 15px;
+}
+
+.profilePic, .textPublicar {
+  display: inline-block;
+}
+
+.textPublicar {
+  padding: 10px;
+}
+
+.buttonPublicar button {
+  display: block;
+}
+
+.buttonPublicar {
+  padding-left: 70px;
 }
