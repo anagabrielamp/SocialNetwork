@@ -10,7 +10,7 @@
     />
   </head>
   <body>
-    <div class="container-fluid p-0">
+    <div class="container-fluid">
       <div class="row arriba">
         <div class="col-12 arriba">
             
@@ -37,7 +37,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row p-0">
         <div class="col-1 offset-1 d-none d-md-block boxRight">
           <div class="boxRightTitle mb-2">
             Popular
@@ -53,7 +53,7 @@
           </div> 
 
         </div>
-        <div class="col-9">
+        <div class="col-9 p-0">
           <div class="subheader mb-2">
             <div class="profilePic">
               <img src="img/profilepicture1.png" width="50">
@@ -61,21 +61,27 @@
             <div class="textPublicar">
               ¿Cuál es tu opinión?
             </div>
+            <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Título</label>
+                <input type="text" class="form-control" id="postTitle">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Contenido</label>
+                <input type="text" class="form-control" id="postMessage">
+              </div>
+            </form>
             <div class="buttonPublicar">
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-primary" id="postButton">Publicar</button>
             </div>
           </div>
-          <div class="boxLeft mb-2">
-              Esta es una reseña de una película que tiene un título largo a propósito
-          </div>
-          <div class="boxLeft mb-2">
-              Esta es una reseña de una película que tiene un título largo a propósito
-          </div>
-          <div class="boxLeft mb-2">
-              Esta es una reseña de una película que tiene un título largo a propósito
-          </div>
-          <div class="boxLeft mb-2">
-              Esta es una reseña de una película que tiene un título largo a propósito
+
+          <div class="card" id="postsContainer">
+            <div class="card-body">
+              <h4 class="card-title"> </h4>
+              <p class="card-text">
+              </p>
+            </div>
           </div>
           
         </div>
@@ -102,5 +108,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="main.js">
+    </script>
   </body>
 </html>
