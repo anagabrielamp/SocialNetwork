@@ -38,3 +38,8 @@
 .buttonPublicar button {
   display: block;
 }
+
+#link {
+  float: right;
+  text-decoration: none;
+}
