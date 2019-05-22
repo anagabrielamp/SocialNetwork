@@ -43,3 +43,11 @@
   float: right;
   text-decoration: none;
 }
+
+.trending {
+  text-align: center;
+}
+
+#trendingButton {
+  text-align: center;
+}

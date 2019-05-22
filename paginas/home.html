@@ -25,6 +25,13 @@
                     <li class="nav-item active">
                       <a class="nav-link" href="#"> Notificaciones <span class="sr-only">(current)</span></a>
                     </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#"> <button type="button" class="btn btn-primary">Registrarse</button> <span class="sr-only">(current)
+                      </span></a>
+                    </li>
+                    <a class="nav-link" href="#"> <button type="button" class="btn btn-primary">Iniciar sesión</button> <span class="sr-only">(current)
+                    </span></a>
+                  </li>
                   </ul>
 
                   <form class="form-inline my-2 my-lg-0">
@@ -38,22 +45,32 @@
       </div>
 
       <div class="row p-0">
-        <div class="col-2 d-none d-md-block boxRight">
-          <div class="boxRightTitle mb-2">
-            Popular <button type="button" class="btn btn-primary">Suscribirse</button>
+        <div class="col-3 d-none d-md-block boxRight">
+          <div class="container-fluid">
+            <div class="row">
+              <div class= "col-12 mb-2">
+                  Popular
+              </div>
+            <div class="row">
+              <div class="col-6 trending ">
+                Comedia
+              </div>
+              <div class="col-6 mb-2 trending">
+                <button type="button" class="btn btn-primary" id="trendingButton">Suscribirse</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 trending">
+                Terror
+              </div>
+              <div class="col-6 trending">
+                <button type="button" class="btn btn-primary" id="trendingButton">Suscribirse</button>
+              </div>
+            </div>
           </div>
-          <div class="visible-md-block hidden-md categorias">
-           Terror <button type="button" class="btn btn-primary">Suscribirse</button>
-          </div> 
-          <div class="categorias">
-          Comedia <button type="button" class="btn btn-primary">Suscribirse</button>
-          </div> 
-          <div class="categorias">
-          Drama <button type="button" class="btn btn-primary">Suscribirse</button>
-          </div> 
-
+          </div>
         </div>
-        <div class="col-10">
+        <div class="col-9">
           <div class="subheader mb-2">
             <div class="profilePic">
               <img src="img/profilepicture1.png" width="80">
