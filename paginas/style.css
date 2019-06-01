@@ -51,3 +51,11 @@
 #trendingButton {
   text-align: center;
 }
+
+.mensajePost {
+  display: none;
+}
+
+.comentarios {
+  display: none;
+}
