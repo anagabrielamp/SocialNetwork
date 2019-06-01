@@ -1,0 +1,45 @@
+.container-fluid {
+  background-color: #F7F8FA
+}
+
+
+.busqueda {
+  width: 150px;
+  border: 30px;
+}
+
+.boxLeft {
+  border: 1px solid #DCDBD8;
+  border-radius: 5px;
+  min-height: 80px;
+  background-color: white;
+  padding: 15px;
+}
+
+.arriba {
+  margin-bottom: 20px;
+}
+
+.subheader {
+  border: 1px solid #DCDBD8;
+  border-radius: 5px;
+  background-color: white;
+  padding: 15px;
+}
+
+.profilePic, .textPublicar {
+  display: inline-block;
+}
+
+.textPublicar {
+  padding: 10px;
+}
+
+.buttonPublicar button {
+  display: block;
+}
+
+#link {
+  float: right;
+  text-decoration: none;
+}

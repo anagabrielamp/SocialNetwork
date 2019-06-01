@@ -1,0 +1,107 @@
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } del { text-decoration: line-through; } table { border-collapse: collapse; border-spacing: 0; } a { text-decoration: none; }
+
+
+
+html{
+   overflow-y:hidden;
+   font-size:62.5%;
+   font-size: 1rem;
+}
+body { 
+   font-family: 'Lato', sans-serif;
+   font-size: 1.2rem; 
+}
+
+
+               /** BARRA NAVEGADORA**/
+
+.navbar  a:hover{
+   text-decoration: none;
+   color:brown;
+  
+
+}
+
+
+.menu {
+   display: inline-block;
+   display: flex;
+   justify-content:center;
+
+   -webkit-border-radius:0.2em;
+   -moz-border-radius:0.2em;
+   border-radius:0.2em;
+
+  
+
+}
+.menu li {
+   float:left;
+   position:relative;
+   border-right:1px solid #d8d8d8;
+   border-left:1px solid #ffffff;
+}
+.menu li:first-child { border-left:none; }
+.menu li:last-child  { border-right:none;}
+.menu li a {
+   font-family:'Lato', sans-serif;
+   font-size:1rem;
+   font-weight:bold;
+   color:#666666;
+   text-shadow:0px 1px 0px #ffffff;
+
+   display: block;
+   padding:0 1em;
+   line-height:2.5em;
+}
+
+               /** BACKGROUND **/
+.site-header{
+   background-image: url(../img/movie-918655_1280.jpg);
+   background-size: cover;
+   background-position: center center ;
+   position: relative;
+   height:100vh;
+   min-height: 20rem;
+  
+}
+
+
+               /**LOGIN CARD **/
+.card-header{
+   margin: 0 auto;
+}
+.card { 
+   width:24rem; 
+   height:30rem;
+   right:300px;
+   left:300px;
+   top:50px;
+   margin: 0px auto;
+   position:absolute;
+   background-color:transparent  ;
+   color:black;   
+   opacity: 0.8  ;
+   background-color:white;
+   text-align: center;
+   border-radius:0.2em;
+
+  
+ }
+ .check {
+    width: 1.5rem;
+    height: 1.5rem;
+   
+ }
+ 
+ .entrar {
+   
+   margin: auto;
+
+ }
+#acc a:hover{
+   text-decoration: none;
+   color:red;
+}
+
+
