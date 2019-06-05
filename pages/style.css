@@ -1,0 +1,129 @@
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { 
+    margin: 0; 
+    padding: 0;
+    border: 0; 
+    outline: 0; 
+    font-size: 100%;
+    vertical-align: baseline; 
+    background: transparent; 
+    } 
+
+    body {
+         
+        line-height: 1;
+        font-family: 'Lato', sans-serif;
+        font-size: 1rem;
+        background-image: url(../img/bell-1096280_1280.png); 
+        background-size: contain ;
+        background-position: center ;
+        position: relative;
+        height:100vh;
+        min-height: 40rem;
+         } 
+
+    ol, ul { list-style: none; }
+     blockquote, q { quotes: none; } 
+     blockquote:before, blockquote:after, q:before, q:after { 
+        content: none; } 
+        :focus { outline: 0; } 
+         ins { text-decoration: none; } 
+         del { text-decoration: line-through; }
+        table { border-collapse: collapse; border-spacing: 0; } 
+         a { text-decoration: none; }
+
+
+html {
+    
+    font-size:62.5%;
+    font-size: 1rem;
+    
+}
+
+ 
+ 
+                /** BARRA NAVEGADORA**/
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.wrapper {
+     width: 50%;
+     margin: 10px auto;
+     display:flex;
+     justify-content: center ;
+     
+     
+ }
+ .menu {
+     display: inline-block;
+     
+  
+     -webkit-border-radius:0.2em;
+     -moz-border-radius:0.2em;
+     border-radius:0.2em;
+  
+    
+  
+    
+ }
+ .menu li {
+     float:left;
+     position:relative;
+     border-right:1px solid rgba(105, 255, 168, 0.219) ;
+     border-left:1px solid rgba(105, 255, 168, 0.219) ;
+ }
+ .menu li:first-child { border-left:none; }
+ .menu li:last-child  { border-right:none;}
+ .menu li a {
+     font-family:'Lato', sans-serif;
+     font-size:1rem;
+     font-weight:bold;
+     color:#332e2e;
+     display: block;
+     padding:0 1em;
+     line-height:2.5em;
+
+ }
+ /** BOTON BUSQUEDA **/
+
+ form.buscar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius:0.2em;
+    
+  }
+ form.buscar button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius:0.2em;
+ }
+  form.buscar button:hover {
+    background: #0b7dda;
+  }
+  
+
+ /** NOTIFICACIONES**/
+
+section{
+    opacity: 0.95;
+    background-position: center;
+ 
+}
+
